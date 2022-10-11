@@ -4,10 +4,8 @@
 #define BLYNK_AUTH_TOKEN "Token"
 
 #define BLYNK_PRINT Serial
-
-#include <WiFi.h>
-#include <WiFiClient.h>
-#include <BlynkSimpleEsp32.h>
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "Wifi Name";
