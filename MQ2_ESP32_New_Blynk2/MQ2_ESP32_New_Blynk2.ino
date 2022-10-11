@@ -1,7 +1,7 @@
 // Chage These Credentials with your Blynk Template credentials
 #define BLYNK_TEMPLATE_ID "Template ID"
 #define BLYNK_DEVICE_NAME "Device Name"
-#define BLYNK_AUTH_TOKEN "Token"
+#define BLYNK_AUTH_TOKEN "Auth Token"
 
 #define BLYNK_PRINT Serial
 
@@ -10,8 +10,8 @@
 #include <BlynkSimpleEsp32.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Wifi Name";
-char pass[] = "Password";
+char ssid[] = "Wifi Name"; // Change your Wifi/ Hotspot Name
+char pass[] = "Wifi Password"; // Change your Wifi/ Hotspot Password
 
 BlynkTimer timer;
 
